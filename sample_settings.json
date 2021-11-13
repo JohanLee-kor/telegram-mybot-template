@@ -1,6 +1,6 @@
 {
   "bot-name": "sample",
-  "token": "1502695810:AAHhgzwfdJUVekQikacrqIsr-wqicZyEAyI",
+  "token": "",
   "datasource": {
     "type": "mongodb",
     "host": "localhost",
