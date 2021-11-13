@@ -27,6 +27,10 @@
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
+.idea/**/profiles_settings.xml
+.idea/**/Project_default.xml
+.idea/**/vcs.xml
+
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
@@ -35,14 +39,14 @@
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
- .idea/artifacts
- .idea/compiler.xml
- .idea/jarRepositories.xml
- .idea/modules.xml
- .idea/*.iml
- .idea/modules
- *.iml
- *.ipr
+.idea/artifacts
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+*.iml
+*.ipr
 
 # CMake
 cmake-build-*/
@@ -82,7 +86,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
- .idea/misc.xml
+.idea/misc.xml
 # *.ipr
 
 # Sonarlint plugin

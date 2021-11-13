@@ -1,0 +1,10 @@
+{
+  "bot-name": "sample",
+  "token": "1502695810:AAHhgzwfdJUVekQikacrqIsr-wqicZyEAyI",
+  "datasource": {
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "db-name": "sample"
+  }
+}
