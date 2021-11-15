@@ -24,7 +24,7 @@ def run_bot():
     my_token = settings.conf['token']
     log.debug('>>>>>>>>>TELEGRAM BOT START>>>>>>>>>>>')
 
-    updater = Updater(my_token)
+    updater = Updater(my_token, use_context=True)
     # message 처리 등록
     updater.dispatcher.add_handler(MessageHandler(Filters.text, message.handling,
                                                   pass_chat_data=True,
